@@ -1,0 +1,8 @@
+@robot:
+  prefrences:
+    ask_permission
+    if yes:
+      change_logout_time ask_user
+    else:
+      return ERROR PERMISSION DENIEND OR PASSWORD INCORRECT
+@robot end
