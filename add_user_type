@@ -1,0 +1,8 @@
+@robot:
+  prefrences:
+    ask_permission
+    if yes:
+      add_user_type ask_user
+    else:
+      return ERROR Permission denied or password is incorrect
+@robot end$
